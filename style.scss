@@ -1,0 +1,91 @@
+.container{
+max-width: 1440px;
+width: 100%;
+margin: 0 auto;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+background-color: #1e1f20;
+}
+
+.header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.header a{
+text-decoration: none;
+color: white;
+}
+
+.header a:hover{
+color:orange;
+transition: all 1s;
+}
+
+.basis a{
+padding-left: 32px;
+}
+
+.button button{
+background-color:orange;
+width: 129px;
+height: 38px;
+color:white;
+transition: all 1s;
+border: none;
+border-radius: 10px;
+}
+
+.button button:hover{
+background-color:greenyellow;
+color:black;
+}
+
+.main{
+display: flex;
+align-items:center;
+}
+
+.info{
+    color:white;
+}
+
+.info h1{
+width: 604px;
+height: 144px;
+font-size: 50px;
+
+}
+
+.info input{
+    background-color:#212224;
+width: 343px;
+height: 48px;
+border:2px solid gray;
+color:white;
+
+}
+.info button{
+    background-color:orange;
+    width: 129px;
+    height: 38px;
+    color:white;
+    transition: all 1s;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+.info button:hover{
+    background-color:greenyellow;
+    color:black;
+}
+
+.info_tfs {
+display: flex;
+gap: 50px;
+}
